@@ -47,6 +47,7 @@ class RecipeViewSet(viewsets.ModelViewSet):
     queryset = Recipe.objects.all()
     authentication_classes = [TokenAuthentication]
     permission_classes = [IsAuthenticated]
+    #asdasdasdasdasdasdasd
 
     def _params_to_ints(self, qs):
         """Convert a list of strings to integers."""
